@@ -1,5 +1,8 @@
 # Crawler En Python
-Crawler signifie littéralement « scanner ». Autrement dit, il s’agit d’extraire un maximum d’informations possibles d’un site web. Cette analyse permet ainsi de connaître parfaitement la structure d’un site et de résoudre ses problèmes éventuels. Par exemple, une arborescence mal construite, un maillage interne inadéquat ou encore des balises meta dupliquées.
+Crawler signifie littéralement **« scanner »**. Autrement dit, il s’agit d’extraire un maximum d’informations possibles d’un site web. Cette analyse permet ainsi de connaître parfaitement la structure d’un site et de résoudre ses problèmes éventuels. Par exemple, une arborescence mal construite, un maillage interne inadéquat ou encore des balises meta dupliquées.
+
+## Importance Des Données
+L’importance de l’acquisition de données pour le **Data Scientist** n’est plus à démontrer. Le web étant une source intarissable de données de toutes sortes, le web scraping ou web crawling s’est imposé comme une technique incontournable d’acquisition de données. Scrapy est un framework Python permettant de faciliter les tâches de scraping. Dans cet article nous verrons commant utiliser Scrapy pour créer un jeu de données de textes écrits en langage naturel. Nous commencerons par voir les bases de Scrapy puis nous créerons un jeu de données constitué du site jumia.
 
 ## Création D'un Projet Crawl 
 Avant de créer le projet, il faut s’assurer d’avoir Scrapy installé. Utilisez la ligne de commande suivante pour l’installer :<br>
