@@ -32,3 +32,17 @@ Le module **pipelines** contient les pipelines pour chaque item (modèle de donn
 
 ### Le Fichier settings.py
 Le fichier **settings.py** contient des variables qui sont utilisées par l’engine et le reste du projet.
+
+## Création D’Un Item
+On commence par créer le modèle de données qu’on veut. On fait cela en créant une classe qui hérite de **“scrapy.Item”** et précisant les 3 champs qu’on souhaite avoir.
+
+<pre>
+<code>
+import scrapy
+ 
+class ReviewsAllocineItem(scrapy.Item):
+    designation = scrapy.Field()
+    image = scrapy.Field() 
+    prix = scrapy.Field()
+</code>
+</pre>
