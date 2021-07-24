@@ -6,6 +6,10 @@ L’importance de l’acquisition de données pour le **Data Scientist** n’est
 ## Qu’est-ce que Scrapy ?
 **Scrapy** est un framework Python qui sert à faire du web scraping. Scrapy est adapté aux grands projets de web scraping. En effet, les projets Scrapy ont une structure assez clair qui facilite la maintenance et le passage à l’échelle. En plus, le framework offre une certaine rapidité due à l’asynchronisme des requêtes (Scrapy utilise [Twisted](https://twistedmatrix.com/trac/)). Bref! Je vous propose de jeter un œil à la structure de Scrapy.
 
+## Data flow de Scrapy
+![sycle de vie](images/scrapy_architecture_02.png)
+
+
 ## Création D'un Projet Crawl 
 Avant de créer le projet, il faut s’assurer d’avoir Scrapy installé. Utilisez la ligne de commande suivante pour l’installer :<br>
 <code>
