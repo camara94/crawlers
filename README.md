@@ -84,6 +84,6 @@ class SpiderArticle(Spider):
 </pre>
 
 ## Lancement Du Projet
-Pour lancer notre spider et avoir les données scrapées dans un fichier CSV, on fait la commande suivante :
+Pour lancer notre spider et avoir les données scrapées dans un fichier **CSV**, on fait la commande suivante :
 
-scrapy crawl article -o article.csv
+<code>scrapy crawl article -o article.csv</code>
