@@ -18,4 +18,5 @@ Maintenant nous pouvons générer notre projet avec la ligne de commande suivant
 
 ### scrapy.py
 La racine du projet contient le fichier scrapy.cfg qui est un fichier de configuration qui contient des variables telles que le nom du module qui contient les paramètres du projet et d’autres variables de déploiement.
-
+### &#95;&#95;init&#95;&#95;.py
+La racine contient un autre dossier datasets qui contient le projet en lui même. Ce dossier qui est un package Python (d’où le __init__.py) contient le package spiders (qui pour l’heure est vide) ainsi que les modules : **items**, **middlewares**, **pipelines** et **settings**.
