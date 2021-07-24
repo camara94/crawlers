@@ -29,3 +29,6 @@ Le module **items** définit les modèles des données que doivent respecter les
 
 ### Le Fichier pipelines.py
 Le module **pipelines** contient les pipelines pour chaque item (modèle de données) défini dans le module items. Ces pipelines permettent de faire des traitements sur l’ensemble des items scrapés. Cela est pratique pour faire du nettoyage de données.
+
+### Le Fichier settings.py
+Le fichier **settings.py** contient des variables qui sont utilisées par l’engine et le reste du projet.
