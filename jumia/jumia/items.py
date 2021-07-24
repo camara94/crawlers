@@ -6,7 +6,8 @@
 import scrapy
 
 
-class JumiaItem(scrapy.Item):
+class ArticleItem(scrapy.Item):
     designation = scrapy.Field()
     image = scrapy.Field()
     prix = scrapy.Field()
+    pourcent = scrapy.Field()
