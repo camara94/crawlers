@@ -51,3 +51,34 @@ class ArticleItem(scrapy.Item):
 Le point d’entrée du projet est le dossier **spider**. Nous allons créer un nouveau fichier dans le dossier spiders que l’on va appeler **“article.py“**. Évidemment, vous êtes libre de l’appeler comme vous voulez.
 
 Dans ce fichier, on va créer le spider à proprement dit qui n’est rien d’autre qu’une classe héritant de la classe **Spider** de **scrapy**.
+
+<pre>
+<code>
+from scrapy import Request, Spider
+from ..items import ArticleItem
+ 
+class SpiderArticle(Spider):
+    # Nom du spider
+    name = "article"
+    # URL de la page à scraper
+    url = "https://www.jumia.com.tn/"
+ 
+    def start_requests(self):
+        yield Request(url=self.url, callback=self.parse_films)
+ 
+    def parse_films(self, response):
+        listArticle = response.css("article.pr")
+        for article in listArticle:
+            designation = article.css("div.name::text").extract_first()
+            image = article.css("img.img").attrib('data-src')
+            prix = article.css("div.prc::text").extract_first()
+            
+            item = ArticleItem()
+ 
+            item['designation'] = title
+            item['image'] = image
+            item['prix'] = prix
+ 
+            yield item
+</code>
+</pre>
