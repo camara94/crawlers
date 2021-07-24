@@ -87,3 +87,9 @@ class SpiderArticle(Spider):
 Pour lancer notre spider et avoir les données scrapées dans un fichier **CSV**, on fait la commande suivante :
 
 <code>scrapy crawl article -o article.csv</code>
+
+## Conclusion
+Scrapy est un **framework** Python qui facilite énormément les tâches de **web scraping**. Dans cet article, nous avons vu le principe global de fonctionnement de Scrapy. Puis nous avons vu un exemple de web crawling avec le framework qui nous a permis de créer un jeu de données. Le but de cet article était de faire une introduction au framework Scrapy. Pour une version plus complète du projet de scraping du site **jumia**, [cliquez ici](https://github.com/camara94/crawlers).
+Scrapy est un outil robuste et assez facile à prendre en main. Si vous faites souvent de l’extraction de données sur le web, cet outil peut sûrement vous simplifier la vie.
+
+
