@@ -3,6 +3,8 @@ Crawler signifie littéralement **« scanner »**. Autrement dit, il s’agit d�
 
 ## Importance Des Données
 L’importance de l’acquisition de données pour le **Data Scientist** n’est plus à démontrer. Le web étant une source intarissable de données de toutes sortes, le web scraping ou web crawling s’est imposé comme une technique incontournable d’acquisition de données. Scrapy est un framework Python permettant de faciliter les tâches de scraping. Dans cet article nous verrons commant utiliser Scrapy pour créer un jeu de données de textes écrits en langage naturel. Nous commencerons par voir les bases de Scrapy puis nous créerons un jeu de données constitué du site jumia.
+## Qu’est-ce que Scrapy ?
+**Scrapy** est un framework Python qui sert à faire du web scraping. Scrapy est adapté aux grands projets de web scraping. En effet, les projets Scrapy ont une structure assez clair qui facilite la maintenance et le passage à l’échelle. En plus, le framework offre une certaine rapidité due à l’asynchronisme des requêtes (Scrapy utilise ![Twisted](https://twistedmatrix.com/trac/)). Bref! Je vous propose de jeter un œil à la structure de Scrapy.
 
 ## Création D'un Projet Crawl 
 Avant de créer le projet, il faut s’assurer d’avoir Scrapy installé. Utilisez la ligne de commande suivante pour l’installer :<br>
