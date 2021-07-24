@@ -102,4 +102,13 @@ Scrapy est un **framework** Python qui facilite énormément les tâches de **we
 
 Scrapy est un outil robuste et assez facile à prendre en main. Si vous faites souvent de l’extraction de données sur le web, cet outil peut sûrement vous simplifier la vie.
 
+## Ressources
+1. [https://github.com/camara94/crawlers](https://github.com/camara94/crawlers)
+2. [https://ledatascientist.com/introduction-au-web-scraping-avec-python/](https://ledatascientist.com/introduction-au-web-scraping-avec-python/)
+3. [https://docs.scrapy.org/en/latest/topics/selectors.html](https://docs.scrapy.org/en/latest/topics/selectors.html)
+4. [https://twistedmatrix.com/trac/](https://twistedmatrix.com/trac/)
+5. [https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python)
+6. [prjumia.com.tn](prjumia.com.tn)
+   
+
 
