@@ -7,6 +7,6 @@ import scrapy
 
 
 class JumiaItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    designation = scrapy.Field()
+    image = scrapy.Field()
+    prix = scrapy.Field()
