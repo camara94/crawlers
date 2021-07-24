@@ -15,3 +15,7 @@ Maintenant nous pouvons générer notre projet avec la ligne de commande suivant
 
 ### Un Dossier jumia est créé.
 ![arborescence](images/arborescence.png)
+
+### scrapy.py
+La racine du projet contient le fichier scrapy.cfg qui est un fichier de configuration qui contient des variables telles que le nom du module qui contient les paramètres du projet et d’autres variables de déploiement.
+
