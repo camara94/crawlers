@@ -40,9 +40,14 @@ On commence par créer le modèle de données qu’on veut. On fait cela en cré
 <code>
 import scrapy
  
-class ReviewsAllocineItem(scrapy.Item):
+class ArticleItem(scrapy.Item):
     designation = scrapy.Field()
     image = scrapy.Field() 
     prix = scrapy.Field()
 </code>
 </pre>
+
+## Création d’un Spider
+Le point d’entrée du projet est le dossier **spider**. Nous allons créer un nouveau fichier dans le dossier spiders que l’on va appeler **“article.py“**. Évidemment, vous êtes libre de l’appeler comme vous voulez.
+
+Dans ce fichier, on va créer le spider à proprement dit qui n’est rien d’autre qu’une classe héritant de la classe **Spider** de **scrapy**.
