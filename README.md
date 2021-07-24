@@ -72,7 +72,7 @@ class SpiderArticle(Spider):
             designation = article.css("div.name::text").extract_first()
             image = article.css("img.img").attrib('data-src')
             prix = article.css("div.prc::text").extract_first()
-            
+
             item = ArticleItem()
  
             item['designation'] = title
@@ -82,3 +82,8 @@ class SpiderArticle(Spider):
             yield item
 </code>
 </pre>
+
+## Lancement Du Projet
+Pour lancer notre spider et avoir les données scrapées dans un fichier CSV, on fait la commande suivante :
+
+scrapy crawl article -o article.csv
