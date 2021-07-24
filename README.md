@@ -21,5 +21,8 @@ La racine du projet contient le fichier scrapy.cfg qui est un fichier de configu
 ### &#95;&#95;init&#95;&#95;.py
 La racine contient un autre dossier datasets qui contient le projet en lui même. Ce dossier qui est un package Python (d’où le __init__.py) contient le package spiders (qui pour l’heure est vide) ainsi que les modules : **items**, **middlewares**, **pipelines** et **settings**.
 
-### Le Fichier middlewares 
+### Le Fichier middlewares.py 
 Le module **middlewares** contient les middlewares du projet. Les middlewares pour les spiders et pour le downloader sont créés par défaut. Mais il est possible d’en créer un nouveau.
+
+### Le Fichier items.py
+Le module **items** définit les modèles des données que doivent respecter les items scrapés. Un item est un objet Python style **“clé-valeur”** qui représente un échantillon élémentaire du jeu de données. Si on considère notre jeu de données comme étant au format **CSV**, un item serait une ligne de ce **CSV**.
